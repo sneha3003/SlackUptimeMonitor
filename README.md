@@ -45,7 +45,6 @@ click on add app or integration and you can view it's id in the webpage redirect
 CHANNEL_ID = "G2LCBCXGF"
 ~~~~
 
-
 ### Step 3 - ???
 
 ### Step 4 - Profit
