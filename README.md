@@ -23,7 +23,6 @@ Note that the script is written in Python3.5.
 
 ### Step 2 -  Setup the config variables
 
-
 URLS_TO_CHECK = ["http://facebook.com",
                  "https://youtube.com:9540"]
 
@@ -31,7 +30,6 @@ URLS_TO_CHECK = ["http://facebook.com",
 https://api.slack.com/docs/oauth-test-tokens
 
 You need then to export it as an environmental variable or hardcoded
-
 ~~~~
 export SLACK_TOKEN = 'your_token_here'
 ~~~~
@@ -43,7 +41,6 @@ SLACK_TOKEN = os.environ.get('SLACK_TOKEN')
 you can get it using list_channels and channel_info or click on the channel name
 
 click on add app or integration and you can view it's id in the webpage redirection (you have to be fast because it redirects it to another page)
-
 ~~~~
 CHANNEL_ID = "G2LCBCXGF"
 ~~~~
